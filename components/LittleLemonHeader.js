@@ -8,12 +8,11 @@ export default function LittleLemonHeader() {
           padding: 40,
           fontSize: 30,
           color: 'black',
+          textAlign: 'center'
         }}
-        numberOfLines={3}
         >
-        Welcome
-        <Text style={{ fontWeight: 'bold' }}>Little Lemon</Text> {' '}
-      </Text>
+        Little Lemon
+        </Text>
     </View>
   );
 }
